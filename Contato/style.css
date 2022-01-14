@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    margin: 0 15rem;
+  }
+  
+  #header-imagem {
+    margin: 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #header-imagem img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    max-height: 15rem;
+    text-align: center;
+    object-position: center;
+    border-bottom: 1px solid black;
+  }
+  
+  #menu-navegacao {
+    background: linear-gradient(to right,purple, blue);
+    padding: 16px 20px;
+  }
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin: 0px;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 4px 16px;
+    margin: 0px;
+  
+    /* para arredondar canto: */
+    border-radius: 5px;
+}
+
+li a:hover{
+    background: linear-gradient(to right,blue, purple );
+    color: rgb(255, 255, 255);
+}
+
+main {
+    display: flex;
+    margin-left: 1.5rem;
+}
+
+main ul {
+    width: 15rem;
+    list-style-type: none;
+    margin: 2rem 3rem;
+    border: 1px solid black;
+
+}
+main li {
+    margin-top: 1rem;
+}
+
+input {
+    border-radius: 5px;
+    height: 1.5rem;
+}
+button {
+    border-radius: 5px;
+    height: 2rem;
+    width: 5rem;
+    border: 0px;
+    margin-bottom: 1rem;
+}
+
+button:hover {
+    background-color: rgb(122, 122, 122);
+    color: white;
+}
+
+#formulario-contato li {
+    text-align: center;
+}
+
+#texto-contato {
+    flex-direction: column;
+    padding: 3rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+    width: 18rem;
+}
+#texto-contato h1 {
+    font-size: 22px;
+}
+#subtitulo-contato {
+    font-size: 14px;
+}
+
+footer {
+    color: #fff;
+    background: #64382b;
+    background-image: linear-gradient(to right, purple, blue);
+    padding: 16px;
+    text-align: center;
+    font-size: x-small;
+  }
